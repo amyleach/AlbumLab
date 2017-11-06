@@ -1,6 +1,9 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <meta charset="UTF-8".>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+
     <style>
   
   a: Adele {
@@ -21,6 +24,13 @@
   td{
       font-style: italic
   }
+  th, 
+  caption{
+      text-align:center 
+  }
+  .center{
+      text-align: center
+  }
   
 </style>
 
@@ -32,7 +42,8 @@ type="text/css"/>
 
 <body<p style="color:red;font-weight:bold;"></body> 
 
- <div id="pic">
+ <div class="center">
+     <img src="images/adele.jpg" class="img-circle">
      </div>   
 <div style="text-align:center">
 
@@ -51,31 +62,34 @@ type="text/css"/>
     <li>Pino Palladino - Bass</li>
     <li>Jim Abbiss - Producer</li>
 </ul>
-<table>
-    <tb>
-    <caption>Tracks</caption>
-   
-    <tr bgcolor="grey">
-    
-        <th>Track #</th>
-        <th colspan= "3">Track Title</th>
-        <th>Track Length</th>
-    </tr>
-    <tr>
-        <td>1</td>
-        <td colspan= "3">Rolling in the Deep</td>
-        <td>3:49</td>
-    </tr>
-    <tr>
-        <td>2</td>
-        <td colspan= "3">Rumour Has It</td>
-        <td>3:43</td>
-    </tr>
-    <tr>
-        <td>3</td>
-        <td colspan= "3">Turning Tables</td>
-        <td>4:10</td>
-    </tr>
-    </tb>
-</table>
-</html>
+<div class="table-responsive">
+        <table class="table table-striped">
+                <tb>
+                <caption>Tracks</caption>
+               
+                <tr bgcolor="grey">
+                
+                    <th>Track #</th>
+                    <th colspan= "3">Track Title</th>
+                    <th>Track Length</th>
+                </tr>
+                <tr>
+                    <td>1</td>
+                    <td colspan= "3">Rolling in the Deep</td>
+                    <td>3:49</td>
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td colspan= "3">Rumour Has It</td>
+                    <td>3:43</td>
+                </tr>
+                <tr>
+                    <td>3</td>
+                    <td colspan= "3">Turning Tables</td>
+                    <td>4:10</td>
+                </tr>
+                </tb>
+            </table>
+            </div>
+            </html>
+            
