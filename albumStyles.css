@@ -1,0 +1,12 @@
+table, th, td{
+    border:3px gray solid}
+    table{ 
+        width: 100%; text-align: center;background-color: bisque
+}
+
+#pic{
+    background-image: url("images/adele.jpg");
+    height:225px;
+    background-repeat: repeat;
+    background-position: center center;
+}
